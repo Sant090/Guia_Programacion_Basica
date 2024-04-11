@@ -180,7 +180,7 @@ else
     {
         if (mn3 >= 3)
         {
-            Console.WriteLine($"{n3} esta aprovado");
+            Console.WriteLine($"{n3} esta aprobado");
         }
         else
         {
@@ -240,7 +240,7 @@ else
     {
         if (mn5 >= 3)
         {
-            Console.WriteLine($"{n5} esta aprovado");
+            Console.WriteLine($"{n5} esta aprobado");
         }
         else
         {
