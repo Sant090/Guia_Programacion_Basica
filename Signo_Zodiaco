@@ -1,0 +1,180 @@
+
+Console.WriteLine("Hola, ¿Cuál es tu nombre?");
+string nombre = Console.ReadLine();
+
+Console.WriteLine("¿En qué mes naciste? (1-12)");
+int mes = int.Parse(Console.ReadLine());
+
+Console.WriteLine("¿En qué día naciste?");
+int dia = int.Parse(Console.ReadLine());
+
+if (mes == 1)
+{
+    if (dia >= 20)
+    {
+        Console.WriteLine(nombre + ", tu signo zodiacal es Acuario");
+    }
+    else
+    {
+        Console.WriteLine(nombre + ", tu signo zodiacal es Capricornio");
+    }
+}
+else
+{
+
+    if (mes == 2)
+    {
+        if (dia >= 19)
+        {
+            Console.WriteLine(nombre + ", tu signo zodiacal es Piscis");
+        }
+        else
+        {
+            Console.WriteLine(nombre + ", tu signo zodiacal es Acuario");
+        }
+    }
+    else
+    {
+        if (mes == 3)
+        {
+            if (dia >= 21)
+            {
+                Console.WriteLine(nombre + ", tu signo zodiacal es Aries");
+            }
+            else
+            {
+                Console.WriteLine(nombre + ", tu signo zodiacal es Piscis");
+            }
+        }
+        else
+        {
+            if (mes == 4)
+            {
+                if (dia >= 20)
+                {
+                    Console.WriteLine(nombre + ", tu signo zodiacal es Tauro");
+                }
+                else
+                {
+                    Console.WriteLine(nombre + ", tu signo zodiacal es Aries");
+                }
+            }
+            else
+            {
+                if (mes == 5)
+                {
+                    if (dia >= 21)
+                    {
+                        Console.WriteLine(nombre + ", tu signo zodiacal es Géminis");
+                    }
+                    else
+                    {
+                        Console.WriteLine(nombre + ", tu signo zodiacal es Tauro");
+                    }
+                }
+                else
+                {
+                    if (mes == 6)
+                    {
+                        if (dia >= 21)
+                        {
+                            Console.WriteLine(nombre + ", tu signo zodiacal es Cáncer");
+                        }
+                        else
+                        {
+                            Console.WriteLine(nombre + ", tu signo zodiacal es Géminis");
+                        }
+                    }
+                    else
+                    {
+                        if (mes == 7)
+                        {
+                            if (dia >= 23)
+                            {
+                                Console.WriteLine(nombre + ", tu signo zodiacal es Leo");
+                            }
+                            else
+                            {
+                                Console.WriteLine(nombre + ", tu signo zodiacal es Cáncer");
+                            }
+                        }
+                        else
+                        {
+                            if (mes == 8)
+                            {
+                                if (dia >= 23)
+                                {
+                                    Console.WriteLine(nombre + ", tu signo zodiacal es Virgo");
+                                }
+                                else
+                                {
+                                    Console.WriteLine(nombre + ", tu signo zodiacal es Leo");
+                                }
+                            }
+                            else
+                            {
+                                if (mes == 9)
+                                {
+                                    if (dia >= 23)
+                                    {
+                                        Console.WriteLine(nombre + ", tu signo zodiacal es Libra");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine(nombre + ", tu signo zodiacal es Virgo");
+                                    }
+                                }
+                                else
+                                {
+                                    if (mes == 10)
+                                    {
+                                        if (dia >= 23)
+                                        {
+                                            Console.WriteLine(nombre + ", tu signo zodiacal es Escorpio");
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine(nombre + ", tu signo zodiacal es Libra");
+                                        }
+                                    }
+                                    else
+                                    {
+                                        if (mes == 11)
+                                        {
+                                            if (dia >= 22)
+                                            {
+                                                Console.WriteLine(nombre + ", tu signo zodiacal es Sagitario");
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine(nombre + ", tu signo zodiacal es Escorpio");
+                                            }
+                                        }
+                                        else
+                                        {
+                                            if (mes == 12)
+                                            {
+                                                if (dia >= 22)
+                                                {
+                                                    Console.WriteLine(nombre + ", tu signo zodiacal es Capricornio");
+                                                }
+                                                else
+                                                {
+                                                    Console.WriteLine(nombre + ", tu signo zodiacal es Sagitario");
+                                                }
+                                            }
+                                            else
+                                            {
+                                                Console.WriteLine("Fecha que ingresaste es incorrecta, revisala.");
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
