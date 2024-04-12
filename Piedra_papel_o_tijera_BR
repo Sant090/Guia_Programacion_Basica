@@ -1,0 +1,21 @@
+Console.WriteLine("Ingresa tu nombre para jugar piedra papel o tijera.");
+string name = Console.ReadLine();
+Console.WriteLine("Piedra vale 1, Papel vale 2 y Tijera vale 3");
+int EU = 0;
+int ronda = 5;
+int PuntosBot = 0;
+int PuntosUser = 0;
+Random rnd = new Random();
+int bot = rnd.Next(1, 3);
+while (ronda >= 5);
+    Console.WriteLine("Ingresa tu Opcion.");
+    EU = Convert.ToInt32(Console.ReadLine());
+    bot = rnd.Next(1,3) ;
+    if (1==bot)
+    {
+    Console.WriteLine("Ambos sacaron Piedra");
+    }
+    else
+    {
+
+    }
