@@ -3,10 +3,10 @@ Console.WriteLine("Hola, ¿Cuál es tu nombre?");
 string nombre = Console.ReadLine();
 
 Console.WriteLine("¿En qué mes naciste? (1-12)");
-int mes = int.Parse(Console.ReadLine());
+int mes = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("¿En qué día naciste?");
-int dia = int.Parse(Console.ReadLine());
+int dia = Convert.ToInt32(Console.ReadLine());
 
 if (mes == 1)
 {
