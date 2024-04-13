@@ -9,7 +9,7 @@ int bot = 0;
 
 Console.WriteLine("Ingresa tu nombre para jugar piedra papel o tijera.");
 string name = Console.ReadLine();
-Console.WriteLine("- Piedra es #1\n- Papel es #2\n- Tijera es #3");
+Console.WriteLine("\nLas opciones a elegir es \n- Piedra es #1\n- Papel es #2\n- Tijera es #3");
 while (ronda < 5)
 {
     rnd.Next(1, 4);
@@ -124,11 +124,11 @@ Console.WriteLine($"El marcador final es de {PuntosBot} puntos para el bot y {Pu
 
 if (PuntosBot < PuntosUser)
 {
-    Console.WriteLine($"Le ganaste al bot, felicidades.");
+    Console.WriteLine($"{name} Le ganaste al bot, felicidades.");
 }
 else
 {
-    Console.WriteLine($"Perdiste contra el Bot, sigue intentando.");
+    Console.WriteLine($"{name} Perdiste contra el Bot, sigue intentando.");
 }
 
 
