@@ -1,0 +1,34 @@
+int tamaño = 8;
+
+char[] letras = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+
+// Crear el tablero
+char[,] tablero = new char[tamaño, tamaño];
+
+// Llenar el tablero con los números y letras
+for (int fila = 0; fila < tamaño; fila++)
+{
+    for (int columna = 0; columna < tamaño; columna++)
+    {
+        if ((fila + columna) % 2 == 0)
+        {
+            tablero[fila, columna] = '█'; // Cuadro negro
+        }
+        else
+        {
+            tablero[fila, columna] = '░'; // Cuadro blanco
+        }
+    }
+}
+
+// Imprimir el tablero con números y letras
+Console.WriteLine("  1 2 3 4 5 6 7 8"); // Números de las columnas
+for (int fila = 0; fila < tamaño; fila++)
+{
+    Console.Write(letras[fila] + " "); // Letras de las filas
+    for (int columna = 0; columna < tamaño; columna++)
+    {
+        Console.Write(tablero[fila, columna] + " ");
+    }
+    Console.WriteLine(); // Nueva línea después de cada fila
+}
