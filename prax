@@ -1,0 +1,19 @@
+string[] op = ["1. Suma", "2. Resta", "3. Multiplicacion", "4. Division"] ;
+
+Console.WriteLine("Write your name");
+string name = Console.ReadLine();
+
+void Mprincipal()
+{
+    Console.WriteLine($"{name} que operacion deseas realizar?");
+    for (int i = 0; i < op.Length; i++)
+    {
+        Console.WriteLine(op[i]);
+    }
+}
+void Fun()
+{
+    Mprincipal();
+}
+
+Fun();
