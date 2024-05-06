@@ -5,9 +5,9 @@ int[] notas = new int[5];
 
 for (int i = 0; i < estudiantes.Length; i++)
 {
-    Console.WriteLine($"{estudiantes[i]} por favor ingresar su calificacion para {materias[0]}");
     for (int j = 0; j < notas.Length; j++)
     {
+        Console.WriteLine($"{estudiantes[i]} por favor ingresar su calificacion #{j+1} para {materias[0]}");
         notas[j] = Convert.ToInt16(Console.ReadLine());
         promedio[i] += notas[j];
     }
